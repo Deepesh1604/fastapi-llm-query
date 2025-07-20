@@ -4,7 +4,7 @@ import pandas as pd
 import uvicorn
 
 # Load the dataset
-df = pd.read_json("q-fastapi-llm-query.json")
+df = pd.read_json("/home/deepeshkumar/Desktop/fastapi-llm-query/q-fastapi-llm-query.json")
 
 # Initialize FastAPI app
 app = FastAPI()
